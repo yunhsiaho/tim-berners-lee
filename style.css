@@ -1,8 +1,13 @@
+  html{
+    background-color: rgb(235,235,235);
+    font-family: 'Open Sans', sans-serif;
+  }
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 30px;
   }
   
   .flex-container > div {
@@ -10,4 +15,121 @@
     margin:2px;
     text-align: left;
   }
+  span.A{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+    height: 40%;
+    padding: 5px;
+    background-color: white; 
+    box-shadow: 0 0 5px #7d7d7d4b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  span.B{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+    height: 15%;
+    padding: 5px;
+    background-color: white; 
+    box-shadow: 0 0 5px #7d7d7d4b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  
+    }
+  span.C{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+    height: 80%;
+    padding: 5px;
+    background-color: white; 
+    box-shadow: 0 0 5px #7d7d7d4b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+      }  
+ .tim{
+   border-radius: 50%;
+   border:5px solid rgb(235,235,235);
+   height:150px;
+   width:150px;
+   margin-top: 20px;
+
+ }
+ h1{
+   font-size: 30px;
+   color:#DD5555;
+   margin-top:20px;
+   margin-bottom: 20px;
+   font-weight: 800;
+ }
+ h2{
+   font-size: 25px;
+   color: #7D7D7D;
+   margin-top:20px;
+   margin-bottom: 20px;
+   font-weight: 600;
+   text-align:center
+ }
  
+ p{
+  font-size: 18px;
+  color: #7D7D7D;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  margin-right:20px;
+  font-weight: 500;
+  text-align:justify;
+ }
+ .buttonA{
+   background-color: #DD5555;
+   border-radius: 5px;
+   color:white;
+   font-size: 18px;
+   font-weight:800;
+   height:50px;
+   width: 150px;
+   border:unset;
+   margin-top:10px;
+   margin-bottom: 20px;
+ }
+ .buttonA:hover{
+  background-color:  rgb(235,235,235);
+  color:#7D7D7D;
+ }
+ .movie{
+   padding:50px;
+ }
+ .button{
+   font-size: 60px;
+   border:unset;
+   background-color:unset;
+   color: rgb(235,235,235);
+   padding-top: 30px;
+   padding-bottom:10px;
+   padding-left:30px;
+   padding-right: 30px;
+ }
+ .button:hover{
+  color: #DD5555;
+   }
+ .button:active{
+     border:unset;
+   }
+ h5{
+   font-size: 20px;
+   font-weight: 500;
+   margin-top:1px;
+      }
