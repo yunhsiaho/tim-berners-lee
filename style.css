@@ -1,0 +1,13 @@
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    width: 220px;
+    margin:2px;
+    text-align: left;
+  }
+ 
